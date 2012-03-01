@@ -8,6 +8,10 @@
 #include "raycast.h"
 
 class Sphere : public Object3D{
+    
+protected:
+    Vec3f centre;
+    float radius;
 
 
 public:

@@ -5,12 +5,14 @@
 #define GROUP_H_
 
 #include "raycast.h"
+#include <vector>
 
 
 class Group : public Object3D{
 
   // An array of pointers to objects.
-  Object3D **_object;
+//   Object3D **_object;
+  std::vector<Object3D*>* _object;
 
   // The number of objects in the group.
   int _count;
