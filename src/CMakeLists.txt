@@ -1,0 +1,1 @@
+add_executable(raycast group.cc image.cc orthographic_camera.cc scene_parser.cc sphere.cc)
